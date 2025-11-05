@@ -1,255 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Aadarsh</title>
-    <link rel="icon" type="image/png" href="images/logo-01.png" />
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
-    <link rel="stylesheet" href="css/animate.css" />
+<head>
+  <title>Aadarsh</title>
+  <link rel="icon" type="image/png" href="images/logo-01.png" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
 
-    <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
 
-    <link rel="stylesheet" href="css/ionicons.min.css" />
+  <link rel="stylesheet" href="css/aos.css" />
 
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/icomoon-1.css" />
-    <link rel="stylesheet" href="css/style-2.css" />
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
-    <link rel="stylesheet" href="css/custom.css" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="css/ionicons.min.css" />
 
-    <!-- <link rel="stylesheet" href="css/slick.css" /> -->
-    <script
-      src="https://kit.fontawesome.com/82f797382f.js"
-      crossorigin="anonymous"
-      async
-    ></script>
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/icomoon-1.css" />
+  <link rel="stylesheet" href="css/style-2.css" />
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
+  <link rel="stylesheet" href="css/custom.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" rel="stylesheet" />
 
-    <style>
-      span.typed-text {
-        font-weight: normal;
-        color: white;
-      }
+  <!-- <link rel="stylesheet" href="css/slick.css" /> -->
+  <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous" async></script>
 
-      span.cursor {
-        display: inline-block;
+  <style>
+    span.typed-text {
+      font-weight: normal;
+      color: white;
+    }
+
+    span.cursor {
+      display: inline-block;
+      background-color: #ccc;
+      margin-left: 0.1rem;
+      width: 3px;
+      animation: blink 1s infinite;
+    }
+
+    span.cursor.typing {
+      animation: none;
+    }
+
+    span.typed-text1 {
+      font-weight: normal;
+      color: white;
+    }
+
+    span.cursor1 {
+      display: inline-block;
+      background-color: #ccc;
+      margin-left: 0.1rem;
+      width: 3px;
+      animation: blink 1s infinite;
+    }
+
+    span.cursor1.typing1 {
+      animation: none;
+    }
+
+    @keyframes blink {
+      0% {
         background-color: #ccc;
-        margin-left: 0.1rem;
-        width: 3px;
-        animation: blink 1s infinite;
       }
 
-      span.cursor.typing {
-        animation: none;
-      }
-
-      span.typed-text1 {
-        font-weight: normal;
-        color: white;
-      }
-
-      span.cursor1 {
-        display: inline-block;
+      49% {
         background-color: #ccc;
-        margin-left: 0.1rem;
-        width: 3px;
-        animation: blink 1s infinite;
       }
 
-      span.cursor1.typing1 {
-        animation: none;
+      50% {
+        background-color: transparent;
       }
 
-      @keyframes blink {
-        0% {
-          background-color: #ccc;
-        }
-
-        49% {
-          background-color: #ccc;
-        }
-
-        50% {
-          background-color: transparent;
-        }
-
-        99% {
-          background-color: transparent;
-        }
-
-        100% {
-          background-color: #ccc;
-        }
+      99% {
+        background-color: transparent;
       }
-    </style>
-  </head>
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <nav
-      class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
-      id="ftco-navbar"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="index.html"
-          ><span><img src="./images/logo3-01-01.webp" class="nav-img" /></span
-          >Aadarsh</a
-        >
-        <button
-          class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#ftco-nav"
-          aria-controls="ftco-nav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="oi oi-menu"></span>
-        </button>
+      100% {
+        background-color: #ccc;
+      }
+    }
+  </style>
+</head>
 
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item">
-              <a href="#intro" class="nav-link"><span>Home</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#about-section" class="nav-link"><span>About</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills-section" class="nav-link"><span>Skills</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#resume-section" class="nav-link"><span>Resume</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#services-section" class="nav-link"
-                ><span>Services</span></a
-              >
-            </li>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span><img src="./images/logo3-01-01.webp"
+            class="nav-img" /></span>Aadarsh</a>
+      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+        data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span>
+      </button>
 
-            <li class="nav-item">
-              <a href="#projects-section" class="nav-link"
-                ><span>Projects</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#blog-section" class="nav-link"><span>YouTube</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact-section" class="nav-link"
-                ><span>Contact</span></a
-              >
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav nav ml-auto">
+          <li class="nav-item">
+            <a href="#intro" class="nav-link"><span>Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-section" class="nav-link"><span>About</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills-section" class="nav-link"><span>Skills</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#resume-section" class="nav-link"><span>Resume</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#services-section" class="nav-link"><span>Services</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#projects-section" class="nav-link"><span>Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog-section" class="nav-link"><span>YouTube</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-section" class="nav-link"><span>Contact</span></a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <section id="intro" class="hero intro">
-      <div class="intro-overlay"></div>
+    </div>
+  </nav>
+  <section id="intro" class="hero intro">
+    <div class="intro-overlay"></div>
 
-      <div class="intro-content">
-        <div class="col-twelve">
-          <h5>Hello, World.</h5>
-          <h1>
-            I'm <span class="typed-tex">Aadarsh Thakur</span>
-            <span class="curso">&nbsp;</span>
-          </h1>
+    <div class="intro-content">
+      <div class="col-twelve">
+        <h5>Hello, World.</h5>
+        <h1>
+          I'm <span class="typed-tex">Aadarsh Thakur</span>
+          <span class="curso">&nbsp;</span>
+        </h1>
 
-          <p class="intro-position">
-            <span class="typed-text1"></span>
-            <span class="cursor1"></span>
-          </p>
+        <p class="intro-position">
+          <span class="typed-text1"></span>
+          <span class="cursor1"></span>
+        </p>
 
-          <a class="button stroke smoothscroll" href="#about-section" title=""
-            >More About Me</a
-          >
-        </div>
+        <a class="button stroke smoothscroll" href="#about-section" title="">More About Me</a>
       </div>
-      <!-- /intro-content -->
+    </div>
+    <!-- /intro-content -->
 
-      <ul class="intro-social">
-        <li>
-          <a href="https://www.facebook.com/thedebugarena/" target="_blank"
-            ><i class="fa fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/the_debug_arena/" target="_blank"
-            ><i class="fa fa-instagram"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://github.com/AadarshThakur03" target="_blank"
-            ><i class="fa fa-github"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/aadarsh-thakur03/"
-            target="_blank"
-            ><i class="fa fa-linkedin"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/@thedebugarena" target="_blank"
-            ><i class="fa fa-youtube"></i
-          ></a>
-        </li>
-      </ul>
-    </section>
+    <ul class="intro-social">
+      <li>
+        <a href="https://www.facebook.com/thedebugarena/" target="_blank"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/the_debug_arena/" target="_blank"><i class="fa fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/AadarshThakur03" target="_blank"><i class="fa fa-github"></i></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/aadarsh-thakur03/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@thedebugarena" target="_blank"><i class="fa fa-youtube"></i></a>
+      </li>
+    </ul>
+  </section>
 
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-md-6 col-lg-5 d-flex">
-            <div class="img-about img d-flex align-items-center ftco-animate">
-              <img src="./images/logo3-01-01.webp" class="img-profile" />
-            </div>
+  <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-6 col-lg-5 d-flex">
+          <div class="img-about img d-flex align-items-center ftco-animate">
+            <img src="./images/logo3-01-01.webp" class="img-profile" />
           </div>
-          <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-            <div class="row justify-content-start pb-3">
-              <div class="col-md-12 heading-section ftco-animate">
-                <h1 class="big">About</h1>
-                <h2 class="mb-4">About Me</h2>
-                <div class="col-md-6 col-lg-5 d-flex">
-                  <div
-                    class="img-about img d-flex align-items-center img-div1 ftco-animate"
-                  >
-                    <img src="./images/logo3-01-01.webp" class="img-profile1" />
-                  </div>
+        </div>
+        <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+          <div class="row justify-content-start pb-3">
+            <div class="col-md-12 heading-section ftco-animate">
+              <h1 class="big">About</h1>
+              <h2 class="mb-4">About Me</h2>
+              <div class="col-md-6 col-lg-5 d-flex">
+                <div class="img-about img d-flex align-items-center img-div1 ftco-animate">
+                  <img src="./images/logo3-01-01.webp" class="img-profile1" />
                 </div>
-                <p style="text-align: justify">
-                  I accidentally discovered inspect element while I watching my
-                  favorite show online. That was the Voila moment for me. The
-                  tags and syntaxes fascinated me so I decided to be friends
-                  with them and become a programmer.
-                  <br />After countless bugs, coding tutorials, and several cups
-                  of coffee, I am now a full-stack developer.
-                  <br />
-                  I code projects during the day and learn new programming
-                  languages during the night. Basically, I live in the coding
-                  terminal 24/7.
-                </p>
-                <!-- <ul class="about-info mt-4 px-md-0 px-2">
+              </div>
+              <p style="text-align: justify">
+                I accidentally discovered inspect element while I watching my
+                favorite show online. That was the Voila moment for me. The
+                tags and syntaxes fascinated me so I decided to be friends
+                with them and become a programmer.
+                <br />After countless bugs, coding tutorials, and several cups
+                of coffee, I am now a full-stack developer.
+                <br />
+                I code projects during the day and learn new programming
+                languages during the night. Basically, I live in the coding
+                terminal 24/7.
+              </p>
+              <!-- <ul class="about-info mt-4 px-md-0 px-2">
                   <li class="d-flex">
                     <span>Name:</span> <span>Aadarsh Thakur</span>
                   </li>
@@ -270,855 +221,687 @@
                     <span>Phone: </span> <span>+917021684702</span>
                   </li>
                 </ul> -->
+            </div>
+          </div>
+          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+            <div class="text">
+              <p class="mb-4">
+                <span class="number" data-number="10">0</span>
+                <span>Project complete</span>
+              </p>
+              <p>
+                <a class="btn btn-primary py-3 px-3" href="Aadarsh_Satish_Thakur.pdf" download="Aadarsh_Satish_Thakur.pdf">
+                  Download CV
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section" id="skills-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Skills</h1>
+          <h2 class="mb-4">My Skills</h2>
+          <p>
+            Always looking forward to learn new things but this is my primary
+            skill set.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>HTML & CSS</h3>
+            <div class="progress">
+              <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                aria-valuemax="100" style="width: 90%">
+                <span>90%</span>
               </div>
             </div>
-            <div class="counter-wrap ftco-animate d-flex mt-md-3">
-              <div class="text">
-                <p class="mb-4">
-                  <span class="number" data-number="10">0</span>
-                  <span>Project complete</span>
-                </p>
-                <p>
-                  <a class="btn btn-primary py-3 px-3">Download CV</a>
-                </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>JavaScript</h3>
+            <div class="progress">
+              <div class="progress-bar color-3" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100" style="width: 85%">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>React JS</h3>
+            <div class="progress">
+              <div class="progress-bar color-4" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100" style="width: 80%">
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>React Native</h3>
+            <div class="progress">
+              <div class="progress-bar color-5" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                aria-valuemax="100" style="width: 80%">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>My SQL & Mongo DB</h3>
+            <div class="progress">
+              <div class="progress-bar color-6" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100" style="width: 70%">
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>Node JS</h3>
+            <div class="progress">
+              <div class="progress-bar color-6" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                aria-valuemax="100" style="width: 60%">
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>PHP</h3>
+            <div class="progress">
+              <div class="progress-bar color-6" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                aria-valuemax="100" style="width: 55%">
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>Angular</h3>
+            <div class="progress">
+              <div class="progress-bar color-6" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                aria-valuemax="100" style="width: 50%">
+                <span>50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 animate-box">
+          <div class="progress-wrap ftco-animate">
+            <h3>Java</h3>
+            <div class="progress">
+              <div class="progress-bar color-6" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                aria-valuemax="100" style="width: 50%">
+                <span>40%</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="ftco-section" id="skills-section">
-      <div class="container">
-        <div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Skills</h1>
-            <h2 class="mb-4">My Skills</h2>
-            <p>
-              Always looking forward to learn new things but this is my primary
-              skill set.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 animate-box">
-            <div class="progress-wrap ftco-animate">
-              <h3>HTML & CSS</h3>
-              <div class="progress">
-                <div
-                  class="progress-bar color-1"
-                  role="progressbar"
-                  aria-valuenow="90"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 90%"
-                >
-                  <span>90%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 animate-box">
-            <div class="progress-wrap ftco-animate">
-              <h3>JavaScript</h3>
-              <div class="progress">
-                <div
-                  class="progress-bar color-3"
-                  role="progressbar"
-                  aria-valuenow="85"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 85%"
-                >
-                  <span>85%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 animate-box">
-            <div class="progress-wrap ftco-animate">
-              <h3>React JS</h3>
-              <div class="progress">
-                <div
-                  class="progress-bar color-4"
-                  role="progressbar"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 80%"
-                >
-                  <span>85%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 animate-box">
-            <div class="progress-wrap ftco-animate">
-              <h3>React Native</h3>
-              <div class="progress">
-                <div
-                  class="progress-bar color-5"
-                  role="progressbar"
-                  aria-valuenow="70"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 80%"
-                >
-                  <span>80%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 animate-box">
-            <div class="progress-wrap ftco-animate">
-              <h3>My SQL & Mongo DB</h3>
-              <div class="progress">
-                <div
-                  class="progress-bar color-6"
-                  role="progressbar"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 70%"
-                >
-                  <span>75%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 animate-box">
-            <div class="progress-wrap ftco-animate">
-              <h3>Node JS</h3>
-              <div class="progress">
-                <div
-                  class="progress-bar color-6"
-                  role="progressbar"
-                  aria-valuenow="60"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 60%"
-                >
-                  <span>60%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 animate-box">
-            <div class="progress-wrap ftco-animate">
-              <h3>PHP</h3>
-              <div class="progress">
-                <div
-                  class="progress-bar color-6"
-                  role="progressbar"
-                  aria-valuenow="55"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 55%"
-                >
-                  <span>60%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 animate-box">
-            <div class="progress-wrap ftco-animate">
-              <h3>Angular</h3>
-              <div class="progress">
-                <div
-                  class="progress-bar color-6"
-                  role="progressbar"
-                  aria-valuenow="55"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 50%"
-                >
-                  <span>50%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 animate-box">
-            <div class="progress-wrap ftco-animate">
-              <h3>Java</h3>
-              <div class="progress">
-                <div
-                  class="progress-bar color-6"
-                  role="progressbar"
-                  aria-valuenow="55"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style="width: 50%"
-                >
-                  <span>40%</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-      <div class="container">
-        <div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Resume</h1>
-            <h2 class="mb-4">Resume</h2>
-            <!-- <p>
+  <section class="ftco-section ftco-no-pb" id="resume-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-10 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Resume</h1>
+          <h2 class="mb-4">Resume</h2>
+          <!-- <p>
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia. It is a paradisematic country, in
               which roasted parts of sentences fly into your mouth.
             </p> -->
-          </div>
         </div>
+      </div>
 
-        <div id="resume">
-          <div class="col-twelve resume-header ftco-animate">
-            <h2>Work Expierence</h2>
-          </div>
-          <!-- /resume-header -->
+      <div id="resume">
+        <div class="col-twelve resume-header ftco-animate">
+          <h2>Work Expierence</h2>
+        </div>
+        <!-- /resume-header -->
 
-          <div class="col-twelve ftco-animate">
-            <div class="timeline-wrap">
-              <div class="timeline-block">
-                <div class="timeline-ico">
-                  <i class="fa fa-briefcase"></i>
-                </div>
-
-                <div class="timeline-header">
-                  <h3>Deloitte USI</h3>
-                  <p>Oct 2022</p>
-                </div>
-
-                <div class="timeline-content">
-                  <h4>
-                    Associate Analyst
-                    <span style="font-size: 14px; color: #999999"
-                      >(Full-time)</span
-                    >
-                  </h4>
-                  <p>
-                    I joined Deloitte in October 2022 as an Associate Analyst.
-                    I'm now fully immersed in a project that involves utilizing
-                    technologies such as Angular, .NET, and React. Currently,
-                    I'm primarily focusing on Angular and React, contributing to
-                    various aspects of the project's development and
-                    implementation.
-                  </p>
-                </div>
+        <div class="col-twelve ftco-animate">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
               </div>
 
-              <!-- /timeline-block -->
-
-              <div class="timeline-block">
-                <div class="timeline-ico">
-                  <i class="fa fa-briefcase"></i>
-                </div>
-
-                <div class="timeline-header">
-                  <h3>SuccessR</h3>
-                  <p>June 2021 - August 2021</p>
-                </div>
-
-                <div class="timeline-content">
-                  <h4>
-                    React Developer
-                    <span style="font-size: 14px; color: #999999"
-                      >(Intership)</span
-                    >
-                  </h4>
-                  <p>
-                    I have worked here as a intern for 3 months. They want to
-                    build a website to provide job opportunities for everyone
-                    same like indeed. Frontend was on react. So, in this I had
-                    leaded the team of 2 and developed one of the feature of
-                    their website.
-                  </p>
-                </div>
-              </div>
-              <!-- /timeline-block -->
-              <div class="timeline-block">
-                <div class="timeline-ico">
-                  <i class="fa fa-briefcase"></i>
-                </div>
-
-                <div class="timeline-header">
-                  <h3>Phasor Academy Pvt.Ltd</h3>
-                  <p>August 2020 - March 2021</p>
-                </div>
-
-                <div class="timeline-content">
-                  <h4>
-                    Web Mangement, IT Head.
-                    <span style="font-size: 14px; color: #999999"
-                      >(Full-time)</span
-                    >
-                  </h4>
-                  <p>
-                    My major role involved scheduling, web management, app
-                    handling, and overall IT management for the technical team,
-                    which comprised four members. Additionally, I developed
-                    their website (currently live) and managed their app as the
-                    client-side super admin. I also oversaw their digital
-                    marketing campaigns through Google My Business, Google Ads,
-                    and Google Maps, while also creating their hoardings using
-                    Adobe Illustrator.
-                  </p>
-                </div>
+              <div class="timeline-header">
+                <h3>Deloitte USI</h3>
+                <p>Oct 2022</p>
               </div>
 
-              <!-- /timeline-block -->
+              <div class="timeline-content">
+                <h4>
+                  Associate Analyst
+                  <span style="font-size: 14px; color: #999999">(Full-time)</span>
+                </h4>
+                <p>
+                  I joined Deloitte in October 2022 as an Associate Analyst.
+                  I'm now fully immersed in a project that involves utilizing
+                  technologies such as Angular, .NET, and React. Currently,
+                  I'm primarily focusing on Angular and React, contributing to
+                  various aspects of the project's development and
+                  implementation.
+                </p>
+              </div>
             </div>
-            <!-- /timeline-wrap -->
-          </div>
-          <!-- /col-twelve -->
-        </div>
 
-        <div id="resume">
-          <div class="col-twelve resume-header ftco-animate">
-            <h2>Education</h2>
-          </div>
-          <!-- /resume-header -->
+            <!-- /timeline-block -->
 
-          <div class="col-twelve ftco-animate">
-            <div class="timeline-wrap">
-              <div class="timeline-block">
-                <div class="timeline-ico">
-                  <i class="fa fa-briefcase"></i>
-                </div>
-
-                <div class="timeline-header">
-                  <h3>SSC</h3>
-                  <p>2017</p>
-                </div>
-
-                <div class="timeline-content">
-                  <h4>Himalaya High School</h4>
-                  <p>88.8%</p>
-                </div>
-              </div>
-              <!-- /timeline-block -->
-
-              <div class="timeline-block">
-                <div class="timeline-ico">
-                  <i class="fa fa-briefcase"></i>
-                </div>
-
-                <div class="timeline-header">
-                  <h3>HSC</h3>
-                  <p>2019</p>
-                </div>
-
-                <div class="timeline-content">
-                  <h4>Bhavan's College</h4>
-                  <p>70.15%</p>
-                </div>
-              </div>
-              <!-- /timeline-block -->
-              <div class="timeline-block">
-                <div class="timeline-ico">
-                  <i class="fa fa-briefcase"></i>
-                </div>
-
-                <div class="timeline-header">
-                  <h3>Bachelor's Degree in CS</h3>
-                  <p>2020 - 2022</p>
-                </div>
-
-                <div class="timeline-content">
-                  <h4>Thakur College of Science and Commerce</h4>
-                  <p>9.73 CGPA</p>
-                </div>
-              </div>
-              <div class="timeline-block">
-                <div class="timeline-ico">
-                  <i class="fa fa-briefcase"></i>
-                </div>
-
-                <div class="timeline-header">
-                  <h3>Master of Computer Applications</h3>
-                  <p>2023 - Ongoing</p>
-                </div>
-
-                <div class="timeline-content">
-                  <h4>Indira Gandhi National Open University</h4>
-                  <p>70%</p>
-                </div>
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
               </div>
 
-              <!-- /timeline-block -->
+              <div class="timeline-header">
+                <h3>SuccessR</h3>
+                <p>June 2021 - August 2021</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>
+                  React Developer
+                  <span style="font-size: 14px; color: #999999">(Intership)</span>
+                </h4>
+                <p>
+                  I have worked here as a intern for 3 months. They want to
+                  build a website to provide job opportunities for everyone
+                  same like indeed. Frontend was on react. So, in this I had
+                  leaded the team of 2 and developed one of the feature of
+                  their website.
+                </p>
+              </div>
             </div>
-            <!-- /timeline-wrap -->
-          </div>
-          <!-- /col-twelve -->
-        </div>
+            <!-- /timeline-block -->
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
 
-        <div class="row justify-content-center mt-5">
-          <div class="col-md-6 text-center ftco-animate">
-            <p><a class="btn btn-primary py-4 px-5">Download CV</a></p>
+              <div class="timeline-header">
+                <h3>Phasor Academy Pvt.Ltd</h3>
+                <p>August 2020 - March 2021</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>
+                  Web Mangement, IT Head.
+                  <span style="font-size: 14px; color: #999999">(Full-time)</span>
+                </h4>
+                <p>
+                  My major role involved scheduling, web management, app
+                  handling, and overall IT management for the technical team,
+                  which comprised four members. Additionally, I developed
+                  their website (currently live) and managed their app as the
+                  client-side super admin. I also oversaw their digital
+                  marketing campaigns through Google My Business, Google Ads,
+                  and Google Maps, while also creating their hoardings using
+                  Adobe Illustrator.
+                </p>
+              </div>
+            </div>
+
+            <!-- /timeline-block -->
           </div>
+          <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
+      </div>
+
+      <div id="resume">
+        <div class="col-twelve resume-header ftco-animate">
+          <h2>Education</h2>
+        </div>
+        <!-- /resume-header -->
+
+        <div class="col-twelve ftco-animate">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>SSC</h3>
+                <p>2017</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Himalaya High School</h4>
+                <p>88.8%</p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>HSC</h3>
+                <p>2019</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Bhavan's College</h4>
+                <p>70.15%</p>
+              </div>
+            </div>
+            <!-- /timeline-block -->
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Bachelor's Degree in CS</h3>
+                <p>2020 - 2022</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Thakur College of Science and Commerce</h4>
+                <p>9.73 CGPA</p>
+              </div>
+            </div>
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-briefcase"></i>
+              </div>
+
+              <div class="timeline-header">
+                <h3>Master of Computer Applications</h3>
+                <p>2023 - Ongoing</p>
+              </div>
+
+              <div class="timeline-content">
+                <h4>Indira Gandhi National Open University</h4>
+                <p>70%</p>
+              </div>
+            </div>
+
+            <!-- /timeline-block -->
+          </div>
+          <!-- /timeline-wrap -->
+        </div>
+        <!-- /col-twelve -->
+      </div>
+
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6 text-center ftco-animate">
+          <p><a class="btn btn-primary py-4 px-5">Download CV</a></p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="ftco-section" id="services-section">
-      <div class="container">
-        <div class="row justify-content-center py-5 mt-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Services</h1>
-            <h2 class="mb-4">Services</h2>
-            <p>
-              Be it building an e-commerce website from scratch, coding an
-              Android application, or managing back-end development, I provide
-              end-to-end software development services.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
-              <span class="icon">
-                <i class="flaticon-ux-design"></i>
-              </span>
-              <div class="desc">
-                <h3 class="mb-5">Frontend Development</h3>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
-              <span class="icon">
-                <!-- <i class="flaticon-analysis"></i> -->
-                <img src="icons/server-svgrepo-com.svg" class="custom-icon" />
-              </span>
-              <div class="desc">
-                <h3 class="mb-5">Backend Development</h3>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
-              <span class="icon">
-                <!-- <i class="flaticon-analysis"></i> -->
-                <img src="icons/phone-svgrepo-com.svg" class="custom-icon" />
-              </span>
-              <div class="desc">
-                <h3 class="mb-5">App Development</h3>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
-              <span class="icon">
-                <!-- <i class="flaticon-analysis"></i> -->
-                <img src="icons/api-svgrepo-com.svg" class="custom-icon" />
-              </span>
-              <div class="desc">
-                <h3 class="mb-5">API Development</h3>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
-              <span class="icon">
-                <!-- <i class="flaticon-analysis"></i> -->
-                <img src="icons/settings-svgrepo-com.svg" class="custom-icon" />
-              </span>
-              <div class="desc">
-                <h3 class="mb-5">System Architecture</h3>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
-              <span class="icon">
-                <i class="flaticon-analysis"></i>
-              </span>
-              <div class="desc">
-                <h3 class="mb-5">Optimization</h3>
-              </div>
-            </a>
-          </div>
+  <section class="ftco-section" id="services-section">
+    <div class="container">
+      <div class="row justify-content-center py-5 mt-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Services</h1>
+          <h2 class="mb-4">Services</h2>
+          <p>
+            Be it building an e-commerce website from scratch, coding an
+            Android application, or managing back-end development, I provide
+            end-to-end software development services.
+          </p>
         </div>
       </div>
-    </section>
-    <!-- Projects -->
-    <section class="ftco-section ftco-project" id="projects-section">
-      <div class="container">
-        <div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">My Projects</h2>
-            <p>
-              I help businesses build elegant, robust and scalable software with
-              the best tools. Here's some of my work.
-            </p>
-          </div>
+      <div class="row">
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#" class="services-1">
+            <span class="icon">
+              <i class="flaticon-ux-design"></i>
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">Frontend Development</h3>
+            </div>
+          </a>
         </div>
-        <div id="projectSection"></div>
-      </div>
-    </section>
-
-    <!-- Youtube -->
-    <section class="ftco-section" id="blog-section">
-      <div class="container">
-        <div class="row justify-content-center mb-3 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">YouTube</h1>
-            <h2 class="mb-4">My Videos</h2>
-            <p>
-              I help aspiring developers become better at programming with my
-              YouTube videos.
-            </p>
-          </div>
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#" class="services-1">
+            <span class="icon">
+              <!-- <i class="flaticon-analysis"></i> -->
+              <img src="icons/server-svgrepo-com.svg" class="custom-icon" />
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">Backend Development</h3>
+            </div>
+          </a>
         </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-            <iframe
-              loading="lazy"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/ysF8iy9Kmqw"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <iframe
-              loading="lazy"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/8zCZqGLHQQ0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <iframe
-              loading="lazy"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/adMD46G5BXU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#" class="services-1">
+            <span class="icon">
+              <!-- <i class="flaticon-analysis"></i> -->
+              <img src="icons/phone-svgrepo-com.svg" class="custom-icon" />
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">App Development</h3>
+            </div>
+          </a>
+        </div>
 
-          <div class="col-md-4 d-flex ftco-animate">
-            <iframe
-              width="560"
-              loading="lazy"
-              height="315"
-              src="https://www.youtube.com/embed/l-F6F5XOSvg"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <iframe
-              width="560"
-              loading="lazy"
-              height="315"
-              src="https://www.youtube.com/embed/jcLW2tVsZis"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-            <iframe
-              width="560"
-              loading="lazy"
-              height="315"
-              src="https://www.youtube.com/embed/1vx1y2aVahs"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#" class="services-1">
+            <span class="icon">
+              <!-- <i class="flaticon-analysis"></i> -->
+              <img src="icons/api-svgrepo-com.svg" class="custom-icon" />
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">API Development</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#" class="services-1">
+            <span class="icon">
+              <!-- <i class="flaticon-analysis"></i> -->
+              <img src="icons/settings-svgrepo-com.svg" class="custom-icon" />
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">System Architecture</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#" class="services-1">
+            <span class="icon">
+              <i class="flaticon-analysis"></i>
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">Optimization</h3>
+            </div>
+          </a>
         </div>
       </div>
-    </section>
-
-    <section
-      class="ftco-section ftco-hireme img margin-top"
-      style="background-image: url(images/bg_1.webp)"
-    >
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-7 ftco-animate text-center">
-            <h2>I'm <span>Available</span> for freelancing</h2>
-            <p style="color: white">
-              I can build websites, android applications, create robust back-end
-              infrastructure, develop APIs, and optimize existing websites to
-              maximize performance.
-            </p>
-            <p class="mb-0">
-              <a href="#" class="btn hire-me btn-primary py-3 px-5">Hire me</a>
-            </p>
-          </div>
+    </div>
+  </section>
+  <!-- Projects -->
+  <section class="ftco-section ftco-project" id="projects-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Projects</h1>
+          <h2 class="mb-4">My Projects</h2>
+          <p>
+            I help businesses build elegant, robust and scalable software with
+            the best tools. Here's some of my work.
+          </p>
         </div>
       </div>
-    </section>
+      <div id="projectSection"></div>
+    </div>
+  </section>
 
-    <section
-      class="ftco-section contact-section ftco-no-pb"
-      id="contact-section"
-    >
-      <div class="container">
-        <div class="row justify-content-center pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Let's build something great together. Get in touch with me.</p>
-          </div>
+  <!-- Youtube -->
+  <section class="ftco-section" id="blog-section">
+    <div class="container">
+      <div class="row justify-content-center mb-3 pb-3">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">YouTube</h1>
+          <h2 class="mb-4">My Videos</h2>
+          <p>
+            I help aspiring developers become better at programming with my
+            YouTube videos.
+          </p>
         </div>
-        <div class="row no-gutters block-9">
-          <div class="col-md-12 order-md-last d-flex">
-            <form
-              method="post"
-              class="p-4 p-md-5 contact-form"
-              id="contact-php"
-            >
-              <div class="form-group ftco-animate">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Your Name"
-                  name="username"
-                  required
-                />
-              </div>
-              <div class="form-group ftco-animate">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Your Email"
-                  name="email"
-                  required
-                />
-              </div>
-              <div class="form-group ftco-animate">
-                <input
-                  type="text"
-                  class="form-control"
-                  name="subject"
-                  placeholder="Subject"
-                  required
-                />
-              </div>
-              <div class="form-group ftco-animate">
-                <textarea
-                  id=""
-                  cols="30"
-                  rows="7"
-                  class="form-control"
-                  placeholder="Message"
-                  name="message"
-                  required
-                ></textarea>
-              </div>
-              <div class="form-group ftco-animate" style="text-align: center">
-                <input
-                  id="contact-1"
-                  type="submit"
-                  value="Send Message"
-                  class="btn btn-primary py-3 px-5"
-                />
-                <input
-                  id="contact-2"
-                  type="submit"
-                  value="Submitting....."
-                  class="btn btn-primary py-3 px-5"
-                  style="display: none"
-                />
-              </div>
-              <div style="text-align: center" id="result1"></div>
-            </form>
-          </div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-md-4 d-flex ftco-animate">
+          <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/ysF8iy9Kmqw"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4 d-flex ftco-animate">
+          <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/8zCZqGLHQQ0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4 d-flex ftco-animate">
+          <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/adMD46G5BXU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
 
-          <!-- <div class="col-md-6 d-flex">
+        <div class="col-md-4 d-flex ftco-animate">
+          <iframe width="560" loading="lazy" height="315" src="https://www.youtube.com/embed/l-F6F5XOSvg"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4 d-flex ftco-animate">
+          <iframe width="560" loading="lazy" height="315" src="https://www.youtube.com/embed/jcLW2tVsZis"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4 d-flex ftco-animate">
+          <iframe width="560" loading="lazy" height="315" src="https://www.youtube.com/embed/1vx1y2aVahs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.webp)">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7 ftco-animate text-center">
+          <h2>I'm <span>Available</span> for freelancing</h2>
+          <p style="color: white">
+            I can build websites, android applications, create robust back-end
+            infrastructure, develop APIs, and optimize existing websites to
+            maximize performance.
+          </p>
+          <p class="mb-0">
+            <a href="#" class="btn hire-me btn-primary py-3 px-5">Hire me</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+      <div class="row justify-content-center pb-3">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Contact</h1>
+          <h2 class="mb-4">Contact Me</h2>
+          <p>Let's build something great together. Get in touch with me.</p>
+        </div>
+      </div>
+      <div class="row no-gutters block-9">
+        <div class="col-md-12 order-md-last d-flex">
+          <form method="post" class="p-4 p-md-5 contact-form" id="contact-php">
+            <div class="form-group ftco-animate">
+              <input type="text" class="form-control" placeholder="Your Name" name="username" required />
+            </div>
+            <div class="form-group ftco-animate">
+              <input type="text" class="form-control" placeholder="Your Email" name="email" required />
+            </div>
+            <div class="form-group ftco-animate">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required />
+            </div>
+            <div class="form-group ftco-animate">
+              <textarea id="" cols="30" rows="7" class="form-control" placeholder="Message" name="message"
+                required></textarea>
+            </div>
+            <div class="form-group ftco-animate" style="text-align: center">
+              <input id="contact-1" type="submit" value="Send Message" class="btn btn-primary py-3 px-5" />
+              <input id="contact-2" type="submit" value="Submitting....." class="btn btn-primary py-3 px-5"
+                style="display: none" />
+            </div>
+            <div style="text-align: center" id="result1"></div>
+          </form>
+        </div>
+
+        <!-- <div class="col-md-6 d-flex">
             <div
               class="img"
               style="background-image: url(images/about.jpg)"
             ></div>
           </div> -->
+      </div>
+
+      <script></script>
+
+      <div class="row d-flex contact-info mb-5">
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-map-signs"></span>
+            </div>
+            <h3 class="mb-4">Address</h3>
+            <p><a>Kandivali, Mumbai, Maharshtra, India</a></p>
+          </div>
         </div>
-
-        <script></script>
-
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-map-signs"></span>
-              </div>
-              <h3 class="mb-4">Address</h3>
-              <p><a>Kandivali, Mumbai, Maharshtra, India</a></p>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-phone2"></span>
             </div>
+            <h3 class="mb-4">Contact Number</h3>
+            <p><a href="tel://1234567920">+91 7021684702</a></p>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-phone2"></span>
-              </div>
-              <h3 class="mb-4">Contact Number</h3>
-              <p><a href="tel://1234567920">+91 7021684702</a></p>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-paper-plane"></span>
             </div>
+            <h3 class="mb-4">Email Address</h3>
+            <p>
+              <a href="mailto:info@yoursite.com">adarshthakur210@gmail.com</a>
+            </p>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-paper-plane"></span>
-              </div>
-              <h3 class="mb-4">Email Address</h3>
-              <p>
-                <a href="mailto:info@yoursite.com">adarshthakur210@gmail.com</a>
-              </p>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-globe"></span>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <div class="align-self-stretch box p-4 text-center">
-              <div
-                class="icon d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-globe"></span>
-              </div>
-              <h3 class="mb-4">Website</h3>
-              <p><a href="#">yoursite.com</a></p>
-            </div>
+            <h3 class="mb-4">Website</h3>
+            <p><a href="#">yoursite.com</a></p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="ftco-footer ftco-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 foot-div">
-            <div>
-              &copy; 2022
-              <!-- <script>
+  <footer class="ftco-footer ftco-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 foot-div">
+          <div>
+            &copy; 2022
+            <!-- <script>
                 document.write(new Date().getFullYear());
               </script> -->
-              All rights reserved
-            </div>
-            <div>
-              <a href="#">Terms & Conditions</a>
-              <a href="#">Privacy Policy</a>
-            </div>
+            All rights reserved
+          </div>
+          <div>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
           </div>
         </div>
       </div>
-    </footer>
-
-    <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen">
-      <svg class="circular" width="48px" height="48px">
-        <circle
-          class="path-bg"
-          cx="24"
-          cy="24"
-          r="22"
-          fill="none"
-          stroke-width="4"
-          stroke="#eeeeee"
-        />
-        <circle
-          class="path"
-          cx="24"
-          cy="24"
-          r="22"
-          fill="none"
-          stroke-width="4"
-          stroke-miterlimit="10"
-          stroke="#F96D00"
-        />
-      </svg>
     </div>
-    <!-- <div class="loader">
+  </footer>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" />
+    </svg>
+  </div>
+  <!-- <div class="loader">
       
     </div> -->
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
-      async
-    ></script>
-    <script src="js/main.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/typewriter.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-      async
-    ></script>
-    <script type="text/javascript">
-      jQuery(function () {
-        jQuery("#projectSection").load("projects.html");
-      });
-    </script>
-    <script type="text/javascript">
-      jQuery(window).load(function () {
-        jQuery("#ftco-loader").fadeOut("slow");
-      });
-    </script>
-    <script type="text/javascript">
-      $(function () {
-        $("#contact-php").on("submit", function (e) {
-          e.preventDefault();
-          $.ajax({
-            url: "post.php",
-            type: "POST",
-            beforeSend: function () {
-              $("#contact-1").hide();
-              $("#contact-2").show();
-            },
-            data: {
-              ssd: "yes",
-              data: $("#contact-php").serialize(),
-            },
-            dataType: "JSON",
-            success: function (jsonStr) {
-              $("#contact-1").show();
-              $("#contact-2").hide();
-              $("#result1").html(jsonStr);
-              console.log(jsonStr);
-            },
-          });
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" async></script>
+  <script src="js/main.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/typewriter.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" async></script>
+  <script type="text/javascript">
+    jQuery(function () {
+      jQuery("#projectSection").load("projects.html");
+    });
+  </script>
+  <script type="text/javascript">
+    jQuery(window).load(function () {
+      jQuery("#ftco-loader").fadeOut("slow");
+    });
+  </script>
+  <script type="text/javascript">
+    $(function () {
+      $("#contact-php").on("submit", function (e) {
+        e.preventDefault();
+        $.ajax({
+          url: "post.php",
+          type: "POST",
+          beforeSend: function () {
+            $("#contact-1").hide();
+            $("#contact-2").show();
+          },
+          data: {
+            ssd: "yes",
+            data: $("#contact-php").serialize(),
+          },
+          dataType: "JSON",
+          success: function (jsonStr) {
+            $("#contact-1").show();
+            $("#contact-2").hide();
+            $("#result1").html(jsonStr);
+            console.log(jsonStr);
+          },
         });
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
